@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEUS-BOXE</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+    <style>
+        #carousel-exemplo img {
+            max-height: 800px;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">VIVA-BOXE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel de Imagens -->
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./img-boxe/dois-boxeador.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Um campeão é alguém que se levanta apesar de não ser capaz.</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img-boxe/kickboxer.avif" />
+                    <div class="carousel-caption">
+                        <h2>Aquele que não tem coragem de assumir riscos não alcançará nada na vida.</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img-boxe/dois-boxeadores-femininos.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Só mais um round!</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid Layout com Cards -->
+    <div class="container">
+        <div class="row mt-4 mb-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 mb-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Cabeçalho do header
+                    </div>
+                    <img src="./img-boxe/luva-vermelha.avif" />
+                    <div class="card-body">
+                        <h4 class="card-title">Luva vermelha</h4>
+                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum,
+                            officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime
+                            quidem? Neque, aspernatur! Magni, ut iure!
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 mb-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Cabeçalho do header
+                    </div>
+                    <img src="./img-boxe/luva-preta.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Luva preta</h4>
+                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum,
+                            officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime
+                            quidem? Neque, aspernatur! Magni, ut iure!
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Cabeçalho do header
+                    </div>
+                    <img src="./img-boxe/luva-azuul.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Luva Azul</h4>
+                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum,
+                            officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime
+                            quidem? Neque, aspernatur! Magni, ut iure!
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Links Rápidos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Página Inicial</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Redes Sociais</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contato</h3>
+                    <p>Endereço: Rua Exemplo, 123<br> Cidade Exemplo</p>
+                    <p>Email: exemplo@email.com<br> Telefone: (123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
